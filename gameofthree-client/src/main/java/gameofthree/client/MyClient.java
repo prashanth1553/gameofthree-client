@@ -12,7 +12,6 @@ import com.gameofthree.model.Message;
 public class MyClient {
 
 	private static String URL = "ws://localhost:8080/chat/name";
-//	private static String URL = "ws://192.168.0.102:8080/chat/name";
 	private static final Queue<Message> messages = new LinkedList<>();
 
 	public static void main(String[] args) throws InterruptedException {
